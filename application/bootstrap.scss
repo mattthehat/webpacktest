@@ -1,0 +1,24 @@
+@import "foo/_test.scss";
+$colour: #fff;
+$colour2: salmon;
+
+
+body {
+    background: darken($colour2, 2);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    color: $colour;
+    font-size: 3em;
+    text-transform: $text-transform;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 3px #000;
+    transition: all 1s ease-in-out;
+}
